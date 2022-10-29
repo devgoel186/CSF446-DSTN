@@ -1,0 +1,306 @@
+14061 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14061 close(3)                          = 0
+14061 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+14061 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\311\0\0\0\0\0\0"..., 832) = 832
+14061 close(3)                          = 0
+14061 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+14061 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+14061 close(3)                          = 0
+14061 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14061 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14061 close(3)                          = 0
+14061 openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK) = 3
+14061 close(3)                          = 0
+14061 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14061 close(3)                          = 0
+14061 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+14061 close(3)                          = 0
+14061 openat(AT_FDCWD, "./calls_script", O_RDONLY) = 3
+14061 read(3, "#!/bin/bash\n\nmkdir dir\n\ncd dir\n\n"..., 80) = 80
+14061 dup2(3, 255)                      = 255
+14061 close(3)                          = 0
+14061 read(255, "#!/bin/bash\n\nmkdir dir\n\ncd dir\n\n"..., 288) = 288
+14062 close(255)                        = 0
+14062 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14062 close(3)                          = 0
+14062 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+14062 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20b\0\0\0\0\0\0"..., 832) = 832
+14062 close(3)                          = 0
+14062 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14062 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14062 close(3)                          = 0
+14062 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+14062 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \25\0\0\0\0\0\0"..., 832) = 832
+14062 close(3)                          = 0
+14062 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+14062 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+14062 close(3)                          = 0
+14062 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+14062 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+14062 close(3)                          = 0
+14062 openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+14062 read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 383
+14062 read(3, "", 1024)                 = 0
+14062 close(3)                          = 0
+14062 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14062 close(3)                          = 0
+14062 mkdir("dir", 0777)                = 0
+14062 close(1)                          = 0
+14062 close(2)                          = 0
+14062 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14062, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14061 read(255, "\ncd dir\n\nfor f in {a..c}\ndo\n    "..., 288) = 265
+14061 chdir("/home/arsh/Desktop/dir")   = 0
+14063 close(255)                        = 0
+14063 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14063 close(3)                          = 0
+14063 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14063 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14063 close(3)                          = 0
+14063 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14063 close(3)                          = 0
+14063 openat(AT_FDCWD, "a.txt", O_WRONLY|O_CREAT|O_NOCTTY|O_NONBLOCK, 0666) = 3
+14063 dup2(3, 0)                        = 0
+14063 close(3)                          = 0
+14063 close(0)                          = 0
+14063 close(1)                          = 0
+14063 close(2)                          = 0
+14063 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14063, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14064 close(255)                        = 0
+14064 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14064 close(3)                          = 0
+14064 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14064 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14064 close(3)                          = 0
+14064 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14064 close(3)                          = 0
+14064 openat(AT_FDCWD, "b.txt", O_WRONLY|O_CREAT|O_NOCTTY|O_NONBLOCK, 0666) = 3
+14064 dup2(3, 0)                        = 0
+14064 close(3)                          = 0
+14064 close(0)                          = 0
+14064 close(1)                          = 0
+14064 close(2)                          = 0
+14064 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14064, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14065 close(255)                        = 0
+14065 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14065 close(3)                          = 0
+14065 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14065 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14065 close(3)                          = 0
+14065 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14065 close(3)                          = 0
+14065 openat(AT_FDCWD, "c.txt", O_WRONLY|O_CREAT|O_NOCTTY|O_NONBLOCK, 0666) = 3
+14065 dup2(3, 0)                        = 0
+14065 close(3)                          = 0
+14065 close(0)                          = 0
+14065 close(1)                          = 0
+14065 close(2)                          = 0
+14065 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14065, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14061 read(255, "\nfor f in {a..c}\ndo\n    echo \"he"..., 288) = 213
+14061 openat(AT_FDCWD, "a.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+14061 dup2(3, 1)                        = 1
+14061 close(3)                          = 0
+14061 write(1, "hello to a\n", 11)      = 11
+14061 dup2(10, 1)                       = 1
+14061 close(10)                         = 0
+14061 openat(AT_FDCWD, "b.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+14061 dup2(3, 1)                        = 1
+14061 close(3)                          = 0
+14061 write(1, "hello to b\n", 11)      = 11
+14061 dup2(10, 1)                       = 1
+14061 close(10)                         = 0
+14061 openat(AT_FDCWD, "c.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+14061 dup2(3, 1)                        = 1
+14061 close(3)                          = 0
+14061 write(1, "hello to c\n", 11)      = 11
+14061 dup2(10, 1)                       = 1
+14061 close(10)                         = 0
+14066 close(255)                        = 0
+14066 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14066 close(3)                          = 0
+14066 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+14066 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20b\0\0\0\0\0\0"..., 832) = 832
+14066 close(3)                          = 0
+14066 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14066 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14066 close(3)                          = 0
+14066 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+14066 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \25\0\0\0\0\0\0"..., 832) = 832
+14066 close(3)                          = 0
+14066 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+14066 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+14066 close(3)                          = 0
+14066 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+14066 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+14066 close(3)                          = 0
+14066 openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+14066 read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 383
+14066 read(3, "", 1024)                 = 0
+14066 close(3)                          = 0
+14066 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14066 close(3)                          = 0
+14066 mkdir("subdir", 0777)             = 0
+14066 close(1)                          = 0
+14066 close(2)                          = 0
+14066 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14066, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14061 read(255, "\nfor f in {a..c}\ndo\n    cat \"$f."..., 288) = 140
+14067 close(255)                        = 0
+14067 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14067 close(3)                          = 0
+14067 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14067 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14067 close(3)                          = 0
+14067 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14067 close(3)                          = 0
+14067 openat(AT_FDCWD, "a.txt", O_RDONLY) = 3
+14067 read(3, "hello to a\n", 131072)   = 11
+14067 write(1, "hello to a\n", 11)      = 11
+14067 read(3, "", 131072)               = 0
+14067 close(3)                          = 0
+14067 close(1)                          = 0
+14067 close(2)                          = 0
+14067 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14067, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14068 close(255)                        = 0
+14068 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14068 close(3)                          = 0
+14068 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14068 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14068 close(3)                          = 0
+14068 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14068 close(3)                          = 0
+14068 openat(AT_FDCWD, "b.txt", O_RDONLY) = 3
+14068 read(3, "hello to b\n", 131072)   = 11
+14068 write(1, "hello to b\n", 11)      = 11
+14068 read(3, "", 131072)               = 0
+14068 close(3)                          = 0
+14068 close(1)                          = 0
+14068 close(2)                          = 0
+14068 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14068, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14069 close(255)                        = 0
+14069 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14069 close(3)                          = 0
+14069 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14069 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14069 close(3)                          = 0
+14069 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14069 close(3)                          = 0
+14069 openat(AT_FDCWD, "c.txt", O_RDONLY) = 3
+14069 read(3, "hello to c\n", 131072)   = 11
+14069 write(1, "hello to c\n", 11)      = 11
+14069 read(3, "", 131072)               = 0
+14069 close(3)                          = 0
+14069 close(1)                          = 0
+14069 close(2)                          = 0
+14069 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14069, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14061 read(255, "\nln a.txt h_link\n\nrmdir subdir\nf"..., 288) = 98
+14070 close(255)                        = 0
+14070 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14070 close(3)                          = 0
+14070 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14070 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14070 close(3)                          = 0
+14070 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14070 close(3)                          = 0
+14070 linkat(AT_FDCWD, "a.txt", AT_FDCWD, "h_link", 0) = 0
+14070 close(0)                          = 0
+14070 close(1)                          = 0
+14070 close(2)                          = 0
+14070 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14070, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14061 read(255, "\nrmdir subdir\nfor f in {a..c}\ndo"..., 288) = 81
+14071 close(255)                        = 0
+14071 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14071 close(3)                          = 0
+14071 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14071 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14071 close(3)                          = 0
+14071 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14071 close(3)                          = 0
+14071 rmdir("subdir")                   = 0
+14071 close(1)                          = 0
+14071 close(2)                          = 0
+14071 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14071, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14061 read(255, "for f in {a..c}\ndo\n    rm \"$f.tx"..., 288) = 67
+14072 close(255)                        = 0
+14072 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14072 close(3)                          = 0
+14072 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14072 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14072 close(3)                          = 0
+14072 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14072 close(3)                          = 0
+14072 unlinkat(AT_FDCWD, "a.txt", 0)    = 0
+14072 close(0)                          = 0
+14072 close(1)                          = 0
+14072 close(2)                          = 0
+14072 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14072, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14073 close(255)                        = 0
+14073 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14073 close(3)                          = 0
+14073 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14073 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14073 close(3)                          = 0
+14073 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14073 close(3)                          = 0
+14073 unlinkat(AT_FDCWD, "b.txt", 0)    = 0
+14073 close(0)                          = 0
+14073 close(1)                          = 0
+14073 close(2)                          = 0
+14073 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14073, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14074 close(255)                        = 0
+14074 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14074 close(3)                          = 0
+14074 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14074 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14074 close(3)                          = 0
+14074 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14074 close(3)                          = 0
+14074 unlinkat(AT_FDCWD, "c.txt", 0)    = 0
+14074 close(0)                          = 0
+14074 close(1)                          = 0
+14074 close(2)                          = 0
+14074 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14074, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14061 read(255, "\nrm h_link\n\ncd ..\nrmdir dir", 288) = 27
+14075 close(255)                        = 0
+14075 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14075 close(3)                          = 0
+14075 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14075 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14075 close(3)                          = 0
+14075 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14075 close(3)                          = 0
+14075 unlinkat(AT_FDCWD, "h_link", 0)   = 0
+14075 close(0)                          = 0
+14075 close(1)                          = 0
+14075 close(2)                          = 0
+14075 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14075, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14061 read(255, "\ncd ..\nrmdir dir", 288) = 16
+14061 chdir("/home/arsh/Desktop")       = 0
+14061 read(255, "", 288)                = 0
+14076 close(255)                        = 0
+14076 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+14076 close(3)                          = 0
+14076 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+14076 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+14076 close(3)                          = 0
+14076 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+14076 close(3)                          = 0
+14076 rmdir("dir")                      = 0
+14076 close(1)                          = 0
+14076 close(2)                          = 0
+14076 +++ exited with 0 +++
+14061 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=14076, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+14061 read(255, "", 288)                = 0
+14061 +++ exited with 0 +++

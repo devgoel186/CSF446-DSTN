@@ -1,0 +1,35 @@
+#!/bin/bash
+
+mkdir dir
+
+cd dir
+
+for f in {a..c}
+do
+    touch "$f.txt"
+done
+
+for f in {a..c}
+do
+    echo "hello to $f" > "$f.txt"
+done
+
+mkdir subdir
+
+for f in {a..c}
+do
+    cat "$f.txt"
+done
+
+ln a.txt h_link
+
+rmdir subdir
+for f in {a..c}
+do
+    rm "$f.txt"
+done
+
+rm h_link
+
+cd ..
+rmdir dir

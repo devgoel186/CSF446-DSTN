@@ -1,0 +1,1 @@
+strace -f -o log.txt -e openat,close,rmdir,mkdir,read,write,dup2,chdir,linkat,unlinkat ./calls_script
