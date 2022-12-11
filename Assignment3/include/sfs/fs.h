@@ -7,8 +7,6 @@
 #include <stdint.h>
 #include <vector>
 
-using namespace std;
-
 class FileSystem
 {
 public:
@@ -43,26 +41,25 @@ private:
     };
 
     // TODO: Internal helper functions
-    bool load_inode(size_t inumber, Inode &node);
-    bool save_inode(size_t inumber, Inode &node);
+    bool load_inode(size_t inumber, Inode *node);
+    bool save_inode(size_t inumber, Inode *node);
+    ssize_t allocate_free_block();
 
     // TODO: Internal member variables
     Disk *disk;
-    unsigned int total_blocks;
-    unsigned int total_inode_blocks;
-    unsigned int total_inodes;
-    vector<int> free_blk_bitmap;
+    unsigned int num_blocks;
+    unsigned int num_inode_blocks;
+    unsigned int num_inodes;
+    std::vector<int> free_bitmap;
 
 public:
     static void debug(Disk *disk);
     static bool format(Disk *disk);
 
     bool mount(Disk *disk);
-
     ssize_t create();
     bool remove(size_t inumber);
     ssize_t stat(size_t inumber);
-
     ssize_t read(size_t inumber, char *data, size_t length, size_t offset);
     ssize_t write(size_t inumber, char *data, size_t length, size_t offset);
 };

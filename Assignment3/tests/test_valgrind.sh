@@ -36,7 +36,7 @@ EOF
 cp data/image.200 $SCRATCH/image.200
 echo -n "Testing valgrind on $SCRATCH/image.200 ... "
 errors=$(test-input | valgrind --leak-check=full ./bin/sfssh $SCRATCH/image.200 200 |& awk '/ERROR SUMMARY/ { print $4 }')
-if [ $errors = 0 ]; then
+if [[ $errors -eq 0 ]]; then
     echo "Success"
 else
     echo "Failure"
